@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    background-color: #4682B4;
+    font-family: Arial, sans-serif;
+}
+
+div#interface {
+    background-color: #CFEBFF;
+    position: relative;
+    width: 800px;
+    margin: 5px auto 0px auto;
+    padding: 10px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+}
+
+header#cabecalho h1 {
+    font-family: 'Courier New';
+    left: 195px;
+    position: relative;
+    font-size: 35pt;
+    color: #0000CD;
+    top: 30px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Courier New';
+    left: 230px;
+    position: relative;
+    font-size: 10pt;
+    color: #0000CD;
+}
+
+h1.corpo-titulo {
+    font-size: 20pt;
+    color: #363636;
+    left: 10px;
+}
+
+img#imagem {
+    width: 45%;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+    text-align: center;
+}
+
+footer#rodape p {
+    text-align: center;
+    top: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+
